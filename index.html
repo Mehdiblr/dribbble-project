@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="tools/layout.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="tools/font-awesome.min.css" />
+</head>
+
+<body>
+    <main>
+        <nav class="d-flex justify-between align-center mb-3 mt-2">
+            <h1>Rayn</h1>
+            <div class="nav-search d-flex justify-between align-center">
+                <form>
+                    <input type="text" placeholder="Enter City Name" />
+                    <button>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+
+                    </button>
+                </form>
+                <button>
+                    <i class="fa fa-align-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+        <section id="forecast-banner" class="d-flex justify-between align-end">
+            <div class="d-flex flex-column temperature">
+                <span class="sunny">
+                    <i class="fa fa-sun-o" aria-hidden="true"></i>
+                </span>
+                <span class="temperature-number">13°</span>
+                <span class="temperature-city">Tehran, Iran</span>
+            </div>
+            <div class="d-flex flex-column align-end sunset-time">
+                <span class="sunny">
+                    7:50pm
+                </span>
+                <span class="temperature-number">Sunset Time, Monday</span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

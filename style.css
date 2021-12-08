@@ -1,0 +1,85 @@
+body {
+  background-color: lightblue;
+}
+
+body main {
+  width: 70%;
+  margin: 25px auto;
+  border: 2px solid #525ff7;
+  border-radius: 30px;
+  background-color: #f6fdff;
+  padding: 1rem 5rem;
+}
+
+body main nav h1 {
+  color: blueviolet;
+}
+
+body main nav input {
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  padding: 5px;
+  outline: 0;
+}
+
+body main nav input::-webkit-input-placeholder {
+  color: #eee;
+}
+
+body main nav input:-ms-input-placeholder {
+  color: #eee;
+}
+
+body main nav input::-ms-input-placeholder {
+  color: #eee;
+}
+
+body main nav input::placeholder {
+  color: #eee;
+}
+
+body main nav .nav-search {
+  width: 30%;
+}
+
+body main nav .nav-search form {
+  position: relative;
+}
+
+body main nav .nav-search form button {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  color: #cfcfcf;
+  font-size: 1.7rem;
+}
+
+body main nav .nav-search button {
+  background-color: transparent;
+  border: 0;
+  padding: 1px;
+  font-size: 2rem;
+  color: lightblue;
+  cursor: pointer;
+}
+
+body main section#forecast-banner {
+  background-image: url(tools/img/forecast-image.jpg);
+  min-height: 320px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 8px 18px -5px #4e4bff;
+          box-shadow: 0px 8px 18px -5px #4e4bff;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+body main section#forecast-banner .temperature {
+  font-size: 5rem;
+  text-shadow: 0px 0px 20px black;
+}
+
+body main section#forecast-banner .sunset-time {
+  font-size: 3rem;
+  text-shadow: 0 0 10px black;
+}
+/*# sourceMappingURL=style.css.map */
