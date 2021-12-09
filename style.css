@@ -12,7 +12,7 @@ body main {
 }
 
 body main nav h1 {
-  color: blueviolet;
+  color: #7986ed;
 }
 
 body main nav h1 span {
@@ -87,6 +87,10 @@ body main section#forecast-banner .temperature {
   font-weight: bold;
 }
 
+body main section#forecast-banner .temperature .temperature-city {
+  font-weight: 400;
+}
+
 body main section#forecast-banner .sunset-time {
   font-size: 3rem;
   text-shadow: 0 0 10px black;
@@ -101,7 +105,7 @@ body main section#weather-detail .today-forecast .today-climate {
   padding: 3px 5px;
   border: 1px solid #eee;
   border-radius: 8px;
-  color: #701DCB;
+  color: #838cdf;
   font-size: 4rem;
 }
 
