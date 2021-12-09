@@ -1,11 +1,11 @@
 body {
-  background-color: lightblue;
+  background-color: #eef0ff;
 }
 
 body main {
   width: 70%;
   margin: 25px auto;
-  border: 2px solid #525ff7;
+  border: 3px solid #7382df;
   border-radius: 30px;
   background-color: #f6fdff;
   padding: 1rem 5rem;
@@ -13,6 +13,14 @@ body main {
 
 body main nav h1 {
   color: blueviolet;
+}
+
+body main nav h1 span {
+  color: #cfcfcf;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-left: 1rem;
+  font-weight: 300;
 }
 
 body main nav input {
@@ -65,21 +73,63 @@ body main nav .nav-search button {
 
 body main section#forecast-banner {
   background-image: url(tools/img/forecast-image.jpg);
-  min-height: 320px;
+  min-height: 260px;
   border-radius: 20px;
-  -webkit-box-shadow: 0px 8px 18px -5px #4e4bff;
-          box-shadow: 0px 8px 18px -5px #4e4bff;
+  -webkit-box-shadow: 0px 4px 18px -5px #707af5;
+          box-shadow: 0px 4px 18px -5px #707af5;
   padding: 1rem 2rem;
   color: white;
 }
 
 body main section#forecast-banner .temperature {
-  font-size: 5rem;
+  font-size: 4rem;
   text-shadow: 0px 0px 20px black;
+  font-weight: bold;
 }
 
 body main section#forecast-banner .sunset-time {
   font-size: 3rem;
   text-shadow: 0 0 10px black;
+}
+
+body main section#weather-detail .today-forecast {
+  width: 35%;
+}
+
+body main section#weather-detail .today-forecast .today-climate {
+  background-color: white;
+  padding: 3px 5px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  color: #701DCB;
+  font-size: 4rem;
+}
+
+body main section#weather-detail .today-forecast .today-climate .detail {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  color: black;
+}
+
+body main section#weather-detail .today-forecast .today-climate .detail span:last-child {
+  font-weight: bold;
+}
+
+body main section#weather-detail .today-forecast .monthly-forecast {
+  background-image: -webkit-gradient(linear, right top, left top, from(#0045ae), color-stop(#0065c5), color-stop(#0083d6), color-stop(#00a0e2), to(#12bceb));
+  background-image: linear-gradient(to left, #0045ae, #0065c5, #0083d6, #00a0e2, #12bceb);
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 13px -1px #0000ff73;
+          box-shadow: 0 0 13px -1px #0000ff73;
+  color: white;
+}
+
+body main section#weather-detail .today-forecast .monthly-forecast .yearly span:last-child {
+  color: #cddc39;
+}
+
+body main section#weather-detail .daily-forecast {
+  width: 60%;
 }
 /*# sourceMappingURL=style.css.map */

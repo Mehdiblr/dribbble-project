@@ -17,7 +17,7 @@
 <body>
     <main>
         <nav class="d-flex justify-between align-center mb-3 mt-2">
-            <h1>Rayn</h1>
+            <h1>Rayn<span>Weather Forecasting</span></h1>
             <div class="nav-search d-flex justify-between align-center">
                 <form>
                     <input type="text" placeholder="Enter City Name" />
@@ -31,7 +31,7 @@
                 </button>
             </div>
         </nav>
-        <section id="forecast-banner" class="d-flex justify-between align-end">
+        <section id="forecast-banner" class="d-flex justify-between align-end mb-3">
             <div class="d-flex flex-column temperature">
                 <span class="sunny">
                     <i class="fa fa-sun-o" aria-hidden="true"></i>
@@ -45,6 +45,47 @@
                 </span>
                 <span class="temperature-number">Sunset Time, Monday</span>
             </div>
+        </section>
+        <section id="weather-detail" class="d-flex justify-between align-start mb-3">
+            <div class="today-forecast d-flex flex-column">
+                <div class="today-climate d-flex flex-wrap mb-2">
+                    <div class="humidity w50 d-flex justify-around pad1-2">
+                        <i class="fa fa-tint" aria-hidden="true"></i>
+                        <div class="detail d-flex flex-column">
+                            <span>Humidity</span>
+                            <span>28%</span></div>
+                    </div>
+                    <div class="sunset  w50 d-flex justify-around pad1-2"> <i class="fa fa-arrow-up" aria-hidden="true"></i>
+
+                        <div class="detail d-flex flex-column">
+                            <span>Sun rise</span>
+                            <span>28%</span></div>
+                    </div>
+                    <div class="uv-index  w50 d-flex justify-around pad1-2"> <i class="fa fa-sun-o" aria-hidden="true"></i>
+
+                        <div class="detail d-flex flex-column">
+                            <span>UV Index</span>
+                            <span>28%</span></div>
+                    </div>
+                    <div class="sunrise  w50 d-flex justify-around pad1-2"> <i class="fa fa-arrow-down" aria-hidden="true"></i>
+
+                        <div class="detail d-flex flex-column">
+                            <span>Sun set</span>
+                            <span>28%</span></div>
+                    </div>
+                </div>
+                <div class="monthly-forecast d-flex justify-between">
+                    <div class="rainfall d-flex flex-column">
+                        <span>Monthly Rainfall</span>
+                        <span>45mm</span>
+                    </div>
+                    <div class="yearly d-flex flex-column">
+                        <span>This Year</span>
+                        <span>+17 mm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="daily-forecast">s</div>
         </section>
     </main>
 </body>
