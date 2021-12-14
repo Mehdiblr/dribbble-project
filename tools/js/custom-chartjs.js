@@ -1,5 +1,5 @@
 const ctx = document.getElementById('myChart');
-
+ctx.height = 170;
 // Chart.defaults.global.defaultFontFamily = "Georgia" 
 const myChart = new Chart(ctx, {
 
