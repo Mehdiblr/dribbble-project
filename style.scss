@@ -106,6 +106,22 @@ body {
             }
             .daily-forecast {
                 width: 60%;
+                padding: 8px;
+                background-color: white;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                .daily-forecast-on-table {
+                    color: rgb(82, 82, 82);
+                    span {
+                        margin-bottom: 1rem;
+                    }
+                    span:nth-child(2) {
+                        color: #a2a9db
+                    }
+                    span:last-child {
+                        font-weight: bold;
+                    }
+                }
             }
         }
     }

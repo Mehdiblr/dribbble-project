@@ -135,5 +135,25 @@ body main section#weather-detail .today-forecast .monthly-forecast .yearly span:
 
 body main section#weather-detail .daily-forecast {
   width: 60%;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+body main section#weather-detail .daily-forecast .daily-forecast-on-table {
+  color: #525252;
+}
+
+body main section#weather-detail .daily-forecast .daily-forecast-on-table span {
+  margin-bottom: 1rem;
+}
+
+body main section#weather-detail .daily-forecast .daily-forecast-on-table span:nth-child(2) {
+  color: #a2a9db;
+}
+
+body main section#weather-detail .daily-forecast .daily-forecast-on-table span:last-child {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
