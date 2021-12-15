@@ -147,6 +147,7 @@ body main section#weather-detail .daily-forecast .daily-forecast-on-table {
 
 body main section#weather-detail .daily-forecast .daily-forecast-on-table span {
   margin-bottom: 1rem;
+  font-family: inherit;
 }
 
 body main section#weather-detail .daily-forecast .daily-forecast-on-table span:nth-child(2) {
